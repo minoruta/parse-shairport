@@ -1,0 +1,31 @@
+{
+  "name": "@minoruta/parse-shairport",
+  "version": "0.0.1",
+  "description": "A simple library to parse metadata from the Shairport Sync",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/example.js < ./test-data.log",
+    "example": "npm run build && node dist/example.js"
+  },
+  "keywords": ["shairport-sync", "airplay", "metadata"],
+  "author": "KINOSHITA minoru",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minoruta/parse-shairport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minoruta/parse-shairport/issues"
+  },
+  "homepage": "https://github.com/minoruta/parse-shairport#readme",
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
