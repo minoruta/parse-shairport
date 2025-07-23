@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && node dist/example.js < ./test-data.log",
-    "example": "npm run build && node dist/example.js"
+    "example": "ts-node examples/example.ts < examples/example.xml"
   },
   "keywords": ["shairport-sync", "airplay", "metadata"],
   "author": "KINOSHITA minoru",

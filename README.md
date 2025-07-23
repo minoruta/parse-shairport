@@ -119,13 +119,7 @@ To work on this project locally:
     npm install
     ```
 
-3.  **Run tests:**
-    The test script compiles the TypeScript code and then pipes a sample log file (`test-data.log`) to the compiled example script, simulating a real-world scenario.
-    ```bash
-    npm run test
-    ```
-
-4.  **Run example:**
+3.  **Run example:**
     You can also run the example script directly to see how it works:
     ```bash
     npm run example
