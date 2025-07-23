@@ -1,4 +1,4 @@
-import { parseMetadata } from './index';
+import { parseMetadata } from '../src';
 
 console.log('Starting metadata parser, waiting for stdin...');
 
